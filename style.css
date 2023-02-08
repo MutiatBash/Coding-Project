@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+#heading1,
+#heading2 {
+  margin: 2rem 4rem 0 4rem;
+}
+.paragraph {
+  font-size: 1.1rem;
+  margin: 1rem 7rem;
+}
+#projects {
+  display: flex;
+  justify-content: space-between;
+  /* margin: 1rem 0; */
+  padding: 2rem 4rem;
+  /* background-color: antiquewhite; */
+}
+.images {
+  width: 45%;
+  background-color: antiquewhite;
+  padding: 2rem;
+  border: none;
+  border-radius: 7px;
+}
+a {
+  text-decoration: none;
+}
+button.viewbutton,
+.viewbutton a {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 1rem 0.5rem;
+  border-radius: 25px;
+  margin: 0 4rem;
+}
+.link2 {
+  color: rgb(59, 4, 110);
+  text-align: center;
+  font-weight: 600;
+}
